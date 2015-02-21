@@ -53,7 +53,7 @@ done
 unset config_files
 
 # oh-my-zsh plugins
-plugins=(osx brew docker gem git gitfast git-extras git-flow-avh ruby)
+plugins=(osx brew docker gem git gitfast git-extras git-flow-avh golang ruby)
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
