@@ -1,0 +1,144 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+atom-text-editor {
+
+ // Editor background color
+ background: #37404b;
+
+ &::shadow {
+   // Remove the ugly red background color
+   // on invalid illegal in Go.
+   .invalid.illegal.go {
+     background: #37404b;
+   }
+
+   // No border on the gutter
+   .gutter {
+     border: none !important;
+   }
+
+   // Current line higlight
+   .line.cursor-line {
+     background: #434E58;
+     margin-left: -10px;
+     padding-left: 10px;
+
+     // Current line higlight for
+     // invalid illegal Go
+     .invalid.illegal.go {
+       background: #434E58;
+     }
+   }
+
+   // Selection higlight
+   .selection .region {
+     background: #616E79;
+   }
+
+   // Line numbers higlight
+   .line-numbers,
+   .line-number.cursor-line {
+     background: #3E444F !important;
+     color: #68717a;
+
+     .line-number {
+       text-align: right;
+       padding-right: 8px;
+       .icon-right {
+         float: left;
+         margin-left: -17px;
+       }
+     }
+   }
+
+   // Current line number higlight
+   .cursor-line-no-selection {
+     color: #959ca3 !important;
+   }
+ }
+
+}
+
+// Tool panel and error panel
+.tool-panel {
+  border-top: none !important;
+
+  .panel-heading {
+    background: #37404b;
+    border-bottom: 1px #2e3740 solid;
+  }
+
+  .panel-body {
+    background: #494E58;
+  }
+
+  .panel-bottom {
+    color: white;
+
+    .text-subtle {
+      color: white;
+    }
+
+    .text-error {
+      color: #cc6666;
+    }
+
+    .text-warning {
+      color: #de935f;
+    }
+  }
+
+  .status-bar {
+    background: #494E58;
+    border-top: 1px #656870 solid;
+    color: white;
+    box-shadow: none;
+
+    a, .file-info {
+      color: white;
+    }
+
+  }
+
+}
+
+// Tree view
+.tree-view, .tree-view.focusable-panel {
+  background: #1e232a;
+  border-right: 1px #434E58 solid;
+
+  // Selected item
+  .selected::before,
+  .list-group li:not(.list-nested-item).selected,
+  .list-tree li:not(.list-nested-item).selected,
+  .list-group li.list-nested-item.selected > .list-item,
+  .list-tree li.list-nested-item.selected > .list-item {
+    background: #2e353f !important;
+  }
+}
+
+// Selected item
+.list-group li:not(.list-nested-item).selected,
+.list-tree li:not(.list-nested-item).selected,
+.list-group li.list-nested-item.selected > .list-item,
+.list-tree li.list-nested-item.selected > .list-item {
+    background: #2e353f !important;
+}
+
+// Tabs background
+.tab-bar {
+  .tab {
+    background: #1e232a;
+    &.active {
+      background: #2e353f;
+    }
+  }
+}

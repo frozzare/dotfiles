@@ -1,35 +1,25 @@
-'global':
-  'editor':
-    'showIndentGuide': true
-    'fontFamily': 'Menlo'
-    'fontSize': 15
-    'invisibles': {}
-  'core':
-    'ignoredNames': [
-      '.bundle'
-      '.git'
-      'log'
-      'repositories'
-      'tmp'
-      'vendor'
+"*":
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 11
+    autoIndentOnPaste: false
+    invisibles: {}
+  core:
+    themes: [
+      "beacon-ui"
+      "base16-tomorrow-dark-theme"
     ]
-    'themes': [
-      'unity-ui'
-      'glacier-syntax'
-    ]
-    'hideGitIgnoredFiles': true
-    'disabledPackages': [
-      'background-tips'
-      'exception-reporting'
-      'metrics'
-    ]
-  'spell-check':
-    'grammars': [
-      'text.plain'
-      'source.gfm'
-      'text.git-commit'
-    ]
-  'welcome':
-    'showOnStartup': false
-  'release-notes':
-    'viewedVersion': '0.89.0'
+    projectHome: "/u/work"
+  "exception-reporting":
+    userId: "425745cb-d16a-d29f-21a2-e71c5efc21ec"
+  welcome:
+    showOnStartup: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  emmet: {}
+  "markdown-preview": {}
+  "go-plus":
+    goPath: "/u/work/go"
+".php.source.wordpress":
+  editor:
+    tabLength: 4
