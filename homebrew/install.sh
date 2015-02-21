@@ -13,6 +13,6 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark git-flow-avh
+brew install grc coreutils spark git-flow-avh zsh zsh-completions
 
 exit 0
