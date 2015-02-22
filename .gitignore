@@ -6,3 +6,4 @@ atom.symlink/storage
 atom.symlink/themes
 atom.symlink/.apm/file-icons
 atom.symlink/.apm/language-docker
+atom.symlink/.apm/.apmrc
