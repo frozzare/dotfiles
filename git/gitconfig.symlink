@@ -1,11 +1,11 @@
 [user]
-  name = Fredrik Forsmo
-  email = fredrik.forsmo@gmail.com
+	name = Fredrik Forsmo
+	email = fredrik.forsmo@gmail.com
 [color]
-  diff = auto
-  status = auto
-  branch = auto
-  ui = true
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
 [color "branch"]
 	current = yellow reverse
 	local = yellow
@@ -20,19 +20,19 @@
 	changed = green
 	untracked = cyan
 [core]
-  excludesfile = ~/.gitignore
-  editor = mate -w
+	excludesfile = ~/.gitignore
+	editor = nano
 [github]
-  user = frozzare
+	user = frozzare
 [apply]
-  whitespace = nowarn
+	whitespace = nowarn
 [mergetool]
-  keepBackup = false
+	keepBackup = false
 [difftool]
-  prompt = false
+	prompt = false
 [help]
-  autocorrect = 1
+	autocorrect = 1
 [push]
-  default = simple
+	default = simple
 [gitflow "feature.finish"]
 	no-ff = true
