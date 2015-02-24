@@ -53,10 +53,10 @@ done
 unset config_files
 
 # oh-my-zsh plugins
-plugins=(osx brew docker gem git gitfast git-extras git-flow-avh golang ruby)
+plugins=(osx brew docker gem git gitfast git-extras git-flow-avh golang nruby)
 
 # add /u/bin to path
-export PATH="/u/bin:$PATH"
+export PATH="/u/bin:/usr/local/bin:$PATH"
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
