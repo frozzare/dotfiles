@@ -4,6 +4,4 @@ atom.symlink/compile-cache/
 atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
-atom.symlink/.apm/file-icons
-atom.symlink/.apm/language-docker
-atom.symlink/.apm/.apmrc
+atom.symlink/.apm
