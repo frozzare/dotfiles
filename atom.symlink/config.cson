@@ -20,6 +20,9 @@
   "markdown-preview": {}
   "go-plus":
     goPath: "/u/work/go"
+  react: {}
+  jshint:
+    supportLintingJsx: true
 ".php.source.wordpress":
   editor:
     tabLength: 4
