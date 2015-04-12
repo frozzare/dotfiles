@@ -36,3 +36,11 @@
 	default = simple
 [gitflow "feature.finish"]
 	no-ff = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[diff]
+	tool = Kaleidoscope
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
