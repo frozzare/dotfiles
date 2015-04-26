@@ -1,15 +1,15 @@
 "*":
   editor:
     fontFamily: "Menlo"
-    fontSize: 11
     autoIndentOnPaste: false
     invisibles: {}
+    fontSize: 11
   core:
+    projectHome: "/u/work"
     themes: [
       "beacon-ui"
       "base16-tomorrow-dark-theme"
     ]
-    projectHome: "/u/work"
   "exception-reporting":
     userId: "425745cb-d16a-d29f-21a2-e71c5efc21ec"
   welcome:
@@ -23,6 +23,8 @@
   react: {}
   jshint:
     supportLintingJsx: true
+  docblockr:
+    newline_after_block: true
 ".php.source.wordpress":
   editor:
     tabLength: 4
