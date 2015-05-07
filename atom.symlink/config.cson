@@ -25,6 +25,7 @@
     supportLintingJsx: true
   docblockr:
     newline_after_block: true
+  linter: {}
 ".php.source.wordpress":
   editor:
     tabLength: 4

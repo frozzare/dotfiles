@@ -6,6 +6,8 @@
 	status = auto
 	branch = auto
 	ui = true
+	trustctime = false
+	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 [color "branch"]
 	current = yellow reverse
 	local = yellow
@@ -16,8 +18,10 @@
 	old = red bold
 	new = green bold
 [color "status"]
-	added = yellow
-	changed = green
+	added = green
+	branch = green
+	changed = yellow
+	header = white dim
 	untracked = cyan
 [core]
 	excludesfile = ~/.gitignore
@@ -26,20 +30,19 @@
 	user = frozzare
 [apply]
 	whitespace = nowarn
+[merge]
+	log = true
 [mergetool]
 	keepBackup = false
-[difftool]
-	prompt = false
 [help]
 	autocorrect = 1
 [push]
 	default = simple
 [gitflow "feature.finish"]
 	no-ff = true
-[difftool "Kaleidoscope"]
-	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
 [diff]
-	tool = Kaleidoscope
+	algorithm = patience
+	renames = copies
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
