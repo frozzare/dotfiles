@@ -5,3 +5,4 @@ atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
 atom.symlink/.apm
+atom.symlink/dev
