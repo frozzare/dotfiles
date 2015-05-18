@@ -1,6 +1,7 @@
 alias ff='git flow feature finish'
 alias fs='git flow feature start'
 alias ga='git add'
+alias gc='git commit'
 alias gd='git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat'
 alias gf='git fetch'
 alias gh='git clone --recursive'

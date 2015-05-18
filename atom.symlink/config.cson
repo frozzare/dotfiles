@@ -2,7 +2,8 @@
   editor:
     fontFamily: "Menlo"
     autoIndentOnPaste: false
-    invisibles: {}
+    invisibles:
+      {}
     fontSize: 11
   core:
     projectHome: "/u/work"
@@ -16,16 +17,20 @@
     showOnStartup: false
   "tree-view":
     hideVcsIgnoredFiles: true
-  emmet: {}
-  "markdown-preview": {}
+  emmet:
+    {}
+  "markdown-preview":
+    {}
   "go-plus":
     goPath: "/u/work/go"
-  react: {}
+  react:
+    {}
   jshint:
     supportLintingJsx: true
   docblockr:
     newline_after_block: true
-  linter: {}
+  linter:
+    {}
 ".php.source.wordpress":
   editor:
     tabLength: 4
