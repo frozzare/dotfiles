@@ -13,6 +13,6 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark git-flow-avh zsh zsh-completions thefuck
+brew install grc coreutils spark git-flow-avh zsh zsh-completions thefuck docker docker-compose docker-machine
 
 exit 0
