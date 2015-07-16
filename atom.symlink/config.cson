@@ -27,6 +27,9 @@
   docblockr:
     newline_after_block: true
   linter: {}
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+    eslintPath: "/usr/local/bin/eslint"
 ".php.source.wordpress":
   editor:
     tabLength: 4
