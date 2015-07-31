@@ -24,8 +24,7 @@
   react: {}
   jshint:
     supportLintingJsx: true
-  docblockr:
-    newline_after_block: true
+  docblockr: {}
   linter: {}
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
