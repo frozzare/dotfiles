@@ -28,6 +28,7 @@
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
     eslintPath: "/usr/local/bin/eslint"
+  "language-babel": {}
 ".php.source.wordpress":
   editor:
     tabLength: 4
