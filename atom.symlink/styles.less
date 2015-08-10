@@ -25,6 +25,11 @@ atom-text-editor {
      border: none !important;
    }
 
+   // Fix PHP color issue when first bracets is in a new line.
+   .meta.class.php .punctuation.section.scope.begin.php {
+     color: #c5c8c6 !important;
+   }
+
    // Current line higlight
    .line.cursor-line {
      background: #434E58;
@@ -144,7 +149,7 @@ atom-panel {
   }
 }
 
-// AtomLinter
+// Atom Linter
 #linter-panel,
 .linter-tab,
 .status-error,
