@@ -1,5 +1,6 @@
 alias ff='git flow feature finish'
 alias fs='git flow feature start'
+alias fc='fc() { git checkout feature/$1; }; fc'
 alias ga='git add'
 alias gc='git commit'
 alias gco='git checkout'
