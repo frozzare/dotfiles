@@ -1,14 +1,17 @@
 "*":
   editor:
     fontFamily: "Menlo"
-    autoIndentOnPaste: false
     invisibles: {}
+    autoIndentOnPaste: false
     fontSize: 11
   core:
     projectHome: "/u/work"
     themes: [
       "beacon-ui"
       "base16-tomorrow-dark-theme"
+    ]
+    disabledPackages: [
+      "linter-phpcs"
     ]
   "exception-reporting":
     userId: "425745cb-d16a-d29f-21a2-e71c5efc21ec"
@@ -29,6 +32,8 @@
     disableWhenNoEslintrcFileInPath: true
     eslintPath: "/usr/local/bin/eslint"
   "language-babel": {}
+  "linter-phpcs":
+    tabWidth: 4
 ".php.source.wordpress":
   editor:
     tabLength: 4
