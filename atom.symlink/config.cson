@@ -10,9 +10,6 @@
       "beacon-ui"
       "base16-tomorrow-dark-theme"
     ]
-    disabledPackages: [
-      "linter-phpcs"
-    ]
   "exception-reporting":
     userId: "425745cb-d16a-d29f-21a2-e71c5efc21ec"
   welcome:
