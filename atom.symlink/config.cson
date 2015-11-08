@@ -16,6 +16,7 @@
     showOnStartup: false
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   emmet: {}
   "markdown-preview": {}
   "go-plus":
