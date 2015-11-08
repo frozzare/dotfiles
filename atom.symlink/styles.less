@@ -70,6 +70,30 @@ atom-text-editor {
 
 }
 
+// Settings view.
+atom-pane-container atom-pane .item-views {
+  .settings-view.pane-item {
+    background: #37404b;
+
+    p, a, button, span, .package-readme {
+      color: #dfdfdf !important;
+    }
+
+    .setting-description {
+      color: #dfdfdf;
+    }
+
+    .btn-group > .btn {
+      border: none !important;
+      margin-right: 5px;
+
+      &:hover {
+        background: #2f2f2f;
+      }
+    }
+  }
+}
+
 // Tool panel and error panel
 atom-panel {
   border-top: none !important;

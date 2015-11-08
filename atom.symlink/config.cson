@@ -31,6 +31,7 @@
   "language-babel": {}
   "linter-phpcs":
     tabWidth: 4
+  "autocomplete-php": {}
 ".php.source.wordpress":
   editor:
     tabLength: 4
