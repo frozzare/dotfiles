@@ -11,7 +11,7 @@
 atom-text-editor {
 
  // Editor background color
- background: #37404b;
+ background: #2b303b;
 
  &::shadow {
    // Remove the ugly red background color
@@ -67,82 +67,18 @@ atom-text-editor {
      color: #959ca3 !important;
    }
  }
-
 }
 
-// Settings view.
-atom-pane-container atom-pane .item-views {
-  .settings-view.pane-item,
-  .preview-pane.pane-item {
-    background: #41464D !important;
-
-    p, a, button, span, .package-readme {
-      color: #dfdfdf !important;
-    }
-
-    .setting-description {
-      color: #dfdfdf;
-    }
-
-    .btn-group > .btn {
-      border: none !important;
-      margin-right: 5px;
-
-      &:hover {
-        background: #2f2f2f;
-      }
-    }
-  }
+atom-text-editor .gutter, :host .gutter {
+  background: #2b303b !important;
 }
 
-// Tool panel and error panel
-atom-panel {
-  border-top: none !important;
-
-  .panel-heading {
-    background: #37404b;
-    border-bottom: 1px #2e3740 solid;
-  }
-
-  .panel-body {
-    background: #494E58;
-  }
-
-  .panel-bottom {
-    background: #434E58;
-    color: white;
-
-    .text-subtle {
-      color: white;
-    }
-
-    .text-error {
-      color: #cc6666;
-    }
-
-    .text-warning {
-      color: #de935f;
-    }
-  }
-
-  .status-bar {
-    background: #494E58;
-    border-top: 1px #656870 solid;
-    color: white;
-    box-shadow: none;
-
-    a, .file-info {
-      color: white;
-    }
-
-  }
-
+.tree-view-resizer /deep/ ::-webkit-scrollbar-thumb, atom-text-editor /deep/ ::-webkit-scrollbar-thumb {
+  background: #4f5b66 !important;
 }
 
-// Tool panel
-.tool-panel {
-   background: #1e232a;
-   border-right: 1px #434E58 solid;
+.tree-view-resizer /deep/ ::-webkit-scrollbar, atom-text-editor /deep/ ::-webkit-scrollbar {
+  width: 5px;
 }
 
 // Tree view
@@ -166,31 +102,4 @@ atom-panel {
 .list-group li.list-nested-item.selected > .list-item,
 .list-tree li.list-nested-item.selected > .list-item {
     background: #2e353f !important;
-}
-
-// Tabs background
-.tab-bar {
-  .tab {
-    background: #1e232a;
-    &.active {
-      background: #2e353f;
-    }
-  }
-}
-
-// Atom Linter
-#linter-panel,
-.linter-tab,
-.status-error,
-.status-success {
-  display: none;
-}
-
-linter-panel {
-  padding: 2px 0;
-  color: #fff;
-
-  a, a:hover {
-    color: #fff;
-  }
 }

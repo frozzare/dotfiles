@@ -7,7 +7,7 @@
   core:
     projectHome: "/u/work"
     themes: [
-      "beacon-ui"
+      "spacegray-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
   "exception-reporting":
@@ -33,6 +33,8 @@
   "linter-phpcs":
     tabWidth: 4
   "autocomplete-php": {}
+  "file-icons":
+    coloured: false
 ".php.source.wordpress":
   editor:
     tabLength: 4
