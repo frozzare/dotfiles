@@ -6,3 +6,4 @@ atom.symlink/storage
 atom.symlink/themes
 atom.symlink/.apm
 atom.symlink/dev
+atom.symlink/blob-store
