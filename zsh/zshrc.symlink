@@ -60,3 +60,6 @@ export PATH="/u/bin:/usr/local/bin:$PATH"
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+
+export NVM_DIR="/Users/fredrik/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
