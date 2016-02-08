@@ -1,40 +1,40 @@
 "*":
-  editor:
-    fontFamily: "Menlo"
-    invisibles: {}
-    autoIndentOnPaste: false
-    fontSize: 11
+  "autocomplete-php": {}
   core:
     projectHome: "/u/work"
     themes: [
       "spacegray-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
+  docblockr: {}
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Menlo"
+    fontSize: 11
+    invisibles: {}
+  emmet: {}
   "exception-reporting":
     userId: "425745cb-d16a-d29f-21a2-e71c5efc21ec"
-  welcome:
-    showOnStartup: false
-  "tree-view":
-    hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
-  emmet: {}
-  "markdown-preview": {}
+  "file-icons":
+    coloured: false
   "go-plus":
     goPath: "/u/work/go"
-  react: {}
   jshint:
     supportLintingJsx: true
-  docblockr: {}
+  "language-babel": {}
   linter: {}
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
     eslintPath: "/usr/local/bin/eslint"
-  "language-babel": {}
   "linter-phpcs":
     tabWidth: 4
-  "autocomplete-php": {}
-  "file-icons":
-    coloured: false
+  "markdown-preview": {}
+  react: {}
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
 ".php.source.wordpress":
   editor:
     tabLength: 4
