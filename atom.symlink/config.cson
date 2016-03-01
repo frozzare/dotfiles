@@ -3,8 +3,8 @@
   core:
     projectHome: "/u/work"
     themes: [
-      "spacegray-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "neutron-ui"
+      "neutron-syntax"
     ]
   docblockr: {}
   editor:
