@@ -3,7 +3,7 @@
   core:
     projectHome: "/u/work"
     themes: [
-      "neutron-ui"
+      "one-dark-ui"
       "neutron-syntax"
     ]
   docblockr: {}
