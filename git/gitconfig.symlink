@@ -1,28 +1,7 @@
 [user]
 	name = Fredrik Forsmo
 	email = fredrik.forsmo@gmail.com
-[color]
-	diff = auto
-	status = auto
-	branch = auto
-	ui = true
-	trustctime = false
-	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
-[color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
-[color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
-[color "status"]
-	added = green
-	branch = green
-	changed = yellow
-	header = white dim
-	untracked = cyan
+	signingkey = D1A87629C93D6AF8C1EF9A939809496A90FBD328
 [core]
 	excludesfile = ~/.gitignore
 	editor = nano
@@ -41,9 +20,8 @@
 [gitflow "feature.finish"]
 	no-ff = true
 [diff]
-	algorithm = patience
 	renames = copies
-	tool = delta
+	compactionHeuristic = true
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
@@ -52,7 +30,3 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
-[difftool]
-	prompt = false
-[difftool "delta"]
-	cmd = delta \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
