@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 export DOTS=$HOME/.dotfiles
 
 # The theme to use
-ZSH_THEME="frozzare"
+ZSH_THEME="honukai"
 
 # your project folder that we can `c [tab]` to
 export PROJECTS=/u/work
