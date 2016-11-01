@@ -8,7 +8,7 @@ export DOTS=$HOME/.dotfiles
 ZSH_THEME="honukai"
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=/u/work
+export PROJECTS=/u
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
