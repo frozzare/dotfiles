@@ -137,6 +137,7 @@ install_dotfiles () {
   done
 
   cp "$DOTFILES_ROOT/zsh/frozzare.zsh-theme" ~/.oh-my-zsh/themes/
+  cp "$DOTFILES_ROOT/zsh/honukai.zsh-theme" ~/.oh-my-zsh/themes/
 }
 
 setup_gitconfig
