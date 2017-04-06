@@ -13,6 +13,6 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark git-flow-avh zsh zsh-completions docker docker-compose docker-machine homebrew/php/phpbrew
+brew install grc coreutils spark git-flow-avh zsh zsh-completions docker docker-compose homebrew/php/phpbrew
 
 exit 0
