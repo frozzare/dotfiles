@@ -13,7 +13,7 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark git-flow-avh zsh zsh-completions docker docker-compose go homebrew/php/php71 mackup
+brew install grc coreutils spark git-flow-avh zsh zsh-completions docker docker-compose go homebrew/php/php71 mackup node
 
 # Install apps.
 brew cask install slack docker visual-studio-code textmate franz dropbox paw spotify sequel-pro robomongo
