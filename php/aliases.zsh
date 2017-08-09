@@ -1,0 +1,1 @@
+alias dp="$HOME/.composer/vendor/bin/dep"
