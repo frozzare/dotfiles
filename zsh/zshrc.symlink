@@ -18,12 +18,6 @@ then
   source ~/.localrc
 fi
 
-# Load workrc if it exists
-if [[ -a ~/.workrc ]]
-then
-  source ~/.workrc
-fi
-
 # all of our zsh files
 typeset -U config_files
 config_files=($DOTS/**/*.zsh)
@@ -63,3 +57,11 @@ source $ZSH/oh-my-zsh.sh
 
 export NVM_DIR="/Users/fredrik/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Load workrc if it exists
+if [[ -a ~/.workrc ]]
+then
+  source ~/.workrc
+fi
