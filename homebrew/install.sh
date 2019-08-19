@@ -13,9 +13,9 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark git git-flow-avh zsh zsh-completions docker docker-compose go php mackup node
+brew install grc coreutils spark git git-flow-avh zsh zsh-completions docker docker-compose go php mackup
 
 # Install apps.
-brew cask install slack docker visual-studio-code textmate franz dropbox paw spotify sequel-pro robomongo
+brew cask install slack docker visual-studio-code textmate paw spotify sequel-pro
 
 exit 0
