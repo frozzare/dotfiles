@@ -8,7 +8,7 @@ export DOTS=$HOME/.dotfiles
 ZSH_THEME="honukai"
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=/u
+export PROJECTS=$HOME/u
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -50,7 +50,7 @@ unset config_files
 plugins=(osx brew docker git-extras git-flow-avh golang)
 
 # add /u/bin to path
-export PATH="/u/bin:/usr/local/bin:/sbin:$PATH"
+export PATH="$HOME/u/bin:/usr/local/bin:/sbin:$PATH"
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
