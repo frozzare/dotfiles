@@ -3,7 +3,7 @@
 	email = fredrik.forsmo@gmail.com
 	signingkey = D1A87629C93D6AF8C1EF9A939809496A90FBD328
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/fredrikforsmo/.gitignore
 	editor = nano
 [github]
 	user = frozzare
@@ -30,3 +30,9 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
