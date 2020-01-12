@@ -49,7 +49,7 @@ unset config_files
 # oh-my-zsh plugins
 plugins=(osx brew docker git-extras git-flow-avh golang)
 
-# add /u/bin to path
+# add ~/u/bin to path
 export PATH="$HOME/u/bin:/usr/local/bin:/sbin:$PATH"
 
 # load oh-my-zsh

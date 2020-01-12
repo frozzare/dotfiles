@@ -1344,7 +1344,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/u</string>
+			<string>/Users/fredrik/u</string>
 		</dict>
 	</array>
 	<key>NoSyncConfirmBeta</key>
