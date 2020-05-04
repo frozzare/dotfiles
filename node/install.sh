@@ -1,5 +1,5 @@
 #!/bin/sh
 #
 
-brew install node --without-npm
+brew install node
 echo prefix=~/.npm-packages >> ~/.npmrc
