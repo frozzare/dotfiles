@@ -60,3 +60,5 @@ if [[ -a ~/.workrc ]]
 then
   source ~/.workrc
 fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
