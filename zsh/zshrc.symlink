@@ -55,6 +55,9 @@ export PATH="$HOME/u/bin:/usr/local/bin:/sbin:$PATH"
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
+# autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
 # Load workrc if it exists
 if [[ -a ~/.workrc ]]
 then
