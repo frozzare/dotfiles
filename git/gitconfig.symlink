@@ -1,7 +1,12 @@
 [user]
-	name = Fredrik Forsmo
-	email = fredrik.forsmo@gmail.com
-	signingkey = D1A87629C93D6AF8C1EF9A939809496A90FBD328
+	[includeIf "gitdir:~/.dotfiles/"]
+		path = ~/.gitconfig_oss
+	[includeIf "gitdir:~/u/oss/"]
+		path = ~/.gitconfig_oss
+	[includeIf "gitdir:~/u/github/"]
+		path = ~/.gitconfig_oss
+	[includeIf "gitdir:~/u/nordnet/"]
+		path = ~/.gitconfig_nordnet
 [core]
 	excludesfile = ~/.gitignore
 	editor = nano

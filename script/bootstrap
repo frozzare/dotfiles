@@ -125,6 +125,10 @@ link_file () {
   fi
 }
 
+install_plugins () {
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+}
+
 install_dotfiles () {
   info 'installing dotfiles'
 
@@ -141,6 +145,7 @@ install_dotfiles () {
 }
 
 setup_gitconfig
+install_plugins
 install_dotfiles
 
 # If we're on a Mac, let's install and setup homebrew.
