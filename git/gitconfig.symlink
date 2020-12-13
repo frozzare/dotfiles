@@ -1,12 +1,8 @@
 [user]
-	[includeIf "gitdir:~/.dotfiles/"]
-		path = ~/.gitconfig_oss
-	[includeIf "gitdir:~/u/oss/"]
-		path = ~/.gitconfig_oss
-	[includeIf "gitdir:~/u/github/"]
-		path = ~/.gitconfig_oss
-	[includeIf "gitdir:~/u/nordnet/"]
-		path = ~/.gitconfig_nordnet
+	name = "Fredrik Forsmo"
+	email = fredrik.forsmo@gmail.com
+[includeIf "gitdir:~/u/nordnet/"]
+	path = ~/.gitconfig_nordnet
 [core]
 	excludesfile = ~/.gitignore
 	editor = nano
