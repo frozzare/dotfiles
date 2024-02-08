@@ -16,7 +16,7 @@ fi
 brew install grc coreutils spark git git-flow-avh zsh zsh-completions docker docker-compose go php mackup bat autojump
 
 # Install apps.
-brew cask install slack docker visual-studio-code textmate paw spotify sequel-pro
+brew install --cask slack docker visual-studio-code textmate paw spotify sequel-pro
 
 # Install fzf
 brew isntall fzf

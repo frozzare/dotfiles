@@ -127,6 +127,7 @@ link_file () {
 
 install_plugins () {
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  git clone https://github.com/Sparragus/zsh-auto-nvm-use ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-auto-nvm-use
 }
 
 install_dotfiles () {
