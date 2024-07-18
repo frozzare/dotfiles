@@ -128,6 +128,7 @@ link_file () {
 install_plugins () {
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
   git clone https://github.com/Sparragus/zsh-auto-nvm-use ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-auto-nvm-use
+  git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
 }
 
 install_dotfiles () {
@@ -141,6 +142,7 @@ install_dotfiles () {
     link_file "$src" "$dst"
   done
 
+  mkdir -p ~/.oh-my-zsh/themes
   cp "$DOTFILES_ROOT/zsh/frozzare.zsh-theme" ~/.oh-my-zsh/themes/
   cp "$DOTFILES_ROOT/zsh/honukai.zsh-theme" ~/.oh-my-zsh/themes/
 }
