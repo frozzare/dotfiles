@@ -8,4 +8,5 @@ Run this:
 git clone https://github.com/frozzare/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
+open ~/.dotfiles/iterm/honukai.itermcolors
 ```
