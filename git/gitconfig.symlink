@@ -1,8 +1,8 @@
 [user]
 	name = "Fredrik Forsmo"
 	email = fredrik.forsmo@gmail.com
-[includeIf "gitdir:~/u/nordnet/"]
-	path = ~/.gitconfig_nordnet
+[includeIf "gitdir:~/u/work/"]
+	path = ~/.gitconfig_work
 [core]
 	excludesfile = ~/.gitignore
 	editor = nano
