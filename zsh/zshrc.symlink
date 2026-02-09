@@ -18,6 +18,12 @@ then
   source ~/.localrc
 fi
 
+# Load workrc if it exists
+if [[ -a ~/.workrc ]]
+then
+  source ~/.workrc
+fi
+
 # all of our zsh files
 typeset -U config_files
 config_files=($DOTS/**/*.zsh)
@@ -57,11 +63,5 @@ source $ZSH/oh-my-zsh.sh
 
 # autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-
-# Load workrc if it exists
-if [[ -a ~/.workrc ]]
-then
-  source ~/.workrc
-fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
