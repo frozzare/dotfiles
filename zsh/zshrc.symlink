@@ -56,7 +56,7 @@ done
 unset config_files
 
 # oh-my-zsh plugins
-plugins=(macos brew docker git-extras golang zsh-autosuggestions zsh-auto-nvm-use you-should-use)
+plugins=(macos brew docker git-extras golang zsh-autosuggestions zsh-auto-nvm-use)
 
 # add ~/u/bin to path
 export PATH="$HOME/u/bin:/usr/local/bin:/sbin:$PATH"
